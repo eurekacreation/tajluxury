@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2017-12-27 18:04+0000\n"
+"PO-Revision-Date: 2017-12-27 18:04+0000\n"
+"Last-Translator: James Translator <james@translations.colm>\n"
+"Language-Team: James Translator <james@translations.colm>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _i\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: Console\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:11
+msgid "Site officiel"
+msgstr "Official website"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:69
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:81
+msgid "Accueil"
+msgstr "Home"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:70
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:82
+msgid "Le Projet"
+msgstr "Project"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:71
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:83
+msgid "Villa"
+msgstr "Villa"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:72
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:84
+msgid "Contact"
+msgstr "Contact"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:100
+msgid "Vous voulez plus d’informations?"
+msgstr "Want more information?"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:102
+msgid "Contactez nous"
+msgstr "Contact us"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:116
+msgid "Tous droits réservés. Réalisé par"
+msgstr "All rights reserved, Realized by"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:34
+msgid "Vous souhaite la bienvenue"
+msgstr "Welcomes you"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:35
+msgid "Trouvez la propriété de luxe de vos rêves"
+msgstr "Find the luxury property of your dreams"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:40
+msgid "Prendre un rendez vous"
+msgstr "Make an appointment"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:41
+msgid "Demander d’être rappelé"
+msgstr "Request to be recalled"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:42
+msgid "Demander Brochure"
+msgstr "Request Brochure"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:48
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:61
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:74
+msgid "Nom"
+msgstr "Name"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:49
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:62
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:75
+msgid "Email"
+msgstr "Email"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:50
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:64
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:76
+msgid "Message"
+msgstr "Message"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:51
+msgid "Date"
+msgstr "Date"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:52
+msgid "Prendre rendez vous"
+msgstr "Make appointment"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:63
+msgid "Telephone"
+msgstr "Phone"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:65
+msgid "Être rappelé"
+msgstr "Be reminded"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:77
+msgid "Télécharger"
+msgstr "Download"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:98
+msgid "Pourquoi"
+msgstr "Why"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:102
+msgid ""
+"Baptisée « La Perle du Sud », Marrakech vous offre un cadre dépaysant, à "
+"seulement quelques heures d’avion des principales capitales européennes. Par "
+"ses senteurs, ses couleurs et son ambiance, la ville ocre charme ses hôtes "
+"qui n’ont souvent qu’une envie en la quittant…y revenir."
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:105
+msgid ""
+"Fondée en 1962 par Youssef Ibn Tachfine, premier roi de la dynastie des "
+"Almoravides, Marrakech est la troisième plus grande ville du Maroc et "
+"possède le titre de ville impériale. Installée au pied des montagnes de "
+"l’Atlas et à un peu plus d’une heure de route de l’océan, la ville bénéficie "
+"d’un emplacement stratégique. La Perle du Sud possède de nombreux monuments "
+"célèbres, à travers le monde, comme La Koutoubia, la Place Jemaa El Fna "
+"inscrite, depuis 2001, au patrimoine culturel immatériel de l’humanité par "
+"l’UNESCO, ou encore le fameux quartier de la Palmeraie qui abrite les villas "
+"des plus grandes stars."
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:120
+msgid "RÉSIDENCE"
+msgstr "RESIDENCE"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:124
+msgid ""
+"Le projet de résidences Taj Luxury villa transforme votre rêve en réalité! "
+"Bénéficiez d’une offre totale de 24 villas haut standing, dont la première "
+"tranche de 12 villas est actuellement en cours de commercialisation* ."
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:127
+msgid ""
+"Nos villas sont très bien équipées avec toutes les commodités modernes. "
+"Elles assemblent des styles traditionnel et contemporain pour vous "
+"accueillir dans un cadre féerique loin de l’agitation du centre ville. Situé "
+"dans un magnifique domaine privé, à seulement 20 minutes du centre de la "
+"ville rouge et à quelques minutes de l’aéroport international de Marrakech, "
+"au sein d’un magnifique parc planté de fleurs et riche en végétation exotique"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:140
+msgid "LES POINTS FORTS DU PROJET"
+msgstr "THE STRONG POINTS OF THE PROJECT"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:145
+msgid "Une faible densité d’habitation"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:146
+msgid "Une situation géographique privilégiée"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:147
+msgid "Un soin particulier apporté aux finitions"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:148
+msgid "Services personnalisés sur place"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:149
+msgid "Un cadre idéal pour les familles"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:150
+msgid "Architecture authentique et raffinée"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:151
+msgid "Sécurité et discrétion garanties"
+msgstr ""
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:165
+msgid "VUE INTERIEURE/EXTERIEURE"
+msgstr "INNER / EXTERIOR VIEW"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:166
+msgid "DÉCOUVREZ NOS"
+msgstr "DISCOVER OUR"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:166
+msgid "VILLAS"
+msgstr "VILLAS"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:178
+msgid "Vue"
+msgstr "View"

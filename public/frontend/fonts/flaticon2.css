@@ -1,0 +1,65 @@
+	/*
+  	Flaticon2 icon font: Flaticon2
+  	Creation date: 16/02/2017 16:23
+  	*/
+
+@font-face {
+  font-family: "Flaticon2";
+  src: url("Flaticon2.eot");
+  src: url("Flaticon2d41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon2.woff") format("woff"),
+       url("Flaticon2.ttf") format("truetype"),
+       url("Flaticon2.svg#Flaticon2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon2";
+    src: url("Flaticon2.svg#Flaticon2") format("svg");
+  }
+}
+
+[class^="flaticon2-"]:before, [class*=" flaticon2-"]:before,
+[class^="flaticon2-"]:after, [class*=" flaticon2-"]:after {   
+font-family: Flaticon2;
+font-size:auto;
+font-style: normal;
+margin-left:0px;
+}
+
+.flaticon2-air-conditioner:before { content: "\f100"; }
+.flaticon2-apartment:before { content: "\f101"; }
+.flaticon2-arrows:before { content: "\f102"; }
+.flaticon2-bars:before { content: "\f103"; }
+.flaticon2-bed:before { content: "\f104"; }
+.flaticon2-building:before { content: "\f105"; }
+.flaticon2-clock:before { content: "\f106"; }
+.flaticon2-for-sale:before { content: "\f107"; }
+.flaticon2-holidays:before { content: "\f108"; }
+.flaticon2-internet:before { content: "\f109"; }
+.flaticon2-machine:before { content: "\f10a"; }
+.flaticon2-monitor:before { content: "\f10b"; }
+.flaticon2-old-telephone-ringing:before { content: "\f10c"; }
+.flaticon2-park:before { content: "\f10d"; }
+.flaticon2-people:before { content: "\f10e"; }
+.flaticon2-people-1:before { content: "\f10f"; }
+.flaticon2-people-2:before { content: "\f110"; }
+.flaticon2-person-enjoying-jacuzzi-hot-water-bath:before { content: "\f111"; }
+.flaticon2-security:before { content: "\f112"; }
+.flaticon2-shape:before { content: "\f113"; }
+.flaticon2-sign-out-option:before { content: "\f114"; }
+.flaticon2-social:before { content: "\f115"; }
+.flaticon2-square-layouting-with-black-square-in-east-area:before { content: "\f116"; }
+.flaticon2-summer:before { content: "\f117"; }
+.flaticon2-symbol:before { content: "\f118"; }
+.flaticon2-symbol-1:before { content: "\f119"; }
+.flaticon2-tag:before { content: "\f11a"; }
+.flaticon2-technology:before { content: "\f11b"; }
+.flaticon2-technology-1:before { content: "\f11c"; }
+.flaticon2-technology-2:before { content: "\f11d"; }
+.flaticon2-transport:before { content: "\f11e"; }
+.flaticon2-vehicle:before { content: "\f11f"; }
+.flaticon2-weightlifting:before { content: "\f120"; }
+.flaticon2-wifi:before { content: "\f121"; }
