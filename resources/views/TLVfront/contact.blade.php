@@ -108,7 +108,7 @@
 
 @section('scripts')
         <script type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js&key=AIzaSyARy5rNoOPm5PteDZ7-0xGbNoUG_t1mJoI">
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARy5rNoOPm5PteDZ7-0xGbNoUG_t1mJoI">
         </script>
         <script type="text/javascript">
             // When the window has finished loading create our google map below
