@@ -68,7 +68,46 @@
                                     <li><a href="{{ url('projet')}}">{{_i('Le Projet')}}</a></li>
                                     <li><a href="{{ url('villa-detail')}}">{{_i('Villas')}}</a></li>
                                     <li><a href="{{ url('contact')}}">{{_i('Contact')}}</a></li>
-                                    <li><a href="{{ url('')}}">FR</a></li>
+                                        @foreach(Config::get('laravel-gettext.supported-locales') as $locale)
+                                            @if((LaravelGettext::getLocale()))
+                                                @if(LaravelGettext::getLocale()==$locale)
+                                                <li class="has-child" style="">
+                                                    <a href="{{route('lang',['locale'=>$locale])}}" style="color: #fff;">
+                                                        @if ($locale == 'fr_FR')
+                                                            <span>FR</span>
+                                                        @else
+                                                            <span>EN</span>
+                                                        @endif
+                                                    </a>
+                                                    <ul class="child wow fadeInDown"  style="width: 5em;top: 42px;left: -18px;">
+                                                        @foreach(Config::get('laravel-gettext.supported-locales') as $locale)
+                                                            @if(LaravelGettext::getLocale()!=$locale)
+                                                            <li><a href="{{route('lang',['locale'=>$locale])}}">
+                                                                    @if ($locale == 'fr_FR')
+                                                                        <span>FR</span>
+                                                                    @else
+                                                                        <span>EN</span>
+                                                                    @endif
+                                                                </a>
+                                                            </li>
+                                                            @endif
+                                                        @endforeach
+                                                    </ul>
+                                                </li>
+                                                @break
+                                                @endif
+                                            @else
+                                            <li>
+                                                <a href="{{route('lang',['locale'=>$locale])}}">
+                                                    @if ($locale == 'fr_FR')
+                                                        <span>FR</span>
+                                                    @else
+                                                        <span>EN</span>
+                                                    @endif
+                                                </a>
+                                            </li>
+                                            @endif
+                                        @endforeach
 
                                 </ul>
                             </nav>
