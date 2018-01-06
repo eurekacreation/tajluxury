@@ -6,11 +6,11 @@
 <html dir="ltr" lang="fr-FR">
 
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="Taj Luxury Villas - <?php echo e(_i('Site officiel')); ?> " />
         <meta name="keywords" content="Taj Luxury Villas, Maroc, Marrakech, Location, villas, Lux, vente" />
         <meta name="author" content="eurekacreation-SaadMansouri">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- Google Fonts
         ============================================= -->
@@ -25,15 +25,13 @@
         <link rel="stylesheet" type="text/css" href="<?php echo e(asset('frontend/fonts/flaticon2.css')); ?>">
         <link rel="stylesheet" href="<?php echo e(asset('frontend/css/font-awesome.min.css')); ?>">
         <link rel="stylesheet" href="<?php echo e(asset('frontend/code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css')); ?>">
+        <link rel="shortcut icon" href="<?php echo e(asset('frontend/img/tlv-logo-y.jpg')); ?>">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
-        <!-- JavaScripts
-        ============================================= -->
-        <script type="text/javascript" src="<?php echo e(asset('frontend/js/jquery.js')); ?>"></script>
-
         <title>Taj Luxury Villa | <?php echo $__env->yieldContent('title'); ?> </title>
+
 
         <?php echo $__env->yieldContent('css'); ?>
     </head>
@@ -42,7 +40,7 @@
 
         <!-- MAIN WRAPPER
         ============================================= -->
-        <div id="main-wrapper" class="animsition clearfix">
+        <div id="main-wrapper" class="<?php echo $__env->yieldContent('class-page'); ?> animsition clearfix">
 
             <!-- HEADER
             ============================================= -->
@@ -68,8 +66,10 @@
                                 <ul class="menus-mobile">
                                     <li><a href="<?php echo e(url('accueil')); ?>"><?php echo e(_i('Accueil')); ?></a></li>
                                     <li><a href="<?php echo e(url('projet')); ?>"><?php echo e(_i('Le Projet')); ?></a></li>
-                                    <li><a href="<?php echo e(url('villa-detail')); ?>"><?php echo e(_i('Villa')); ?></a></li>
+                                    <li><a href="<?php echo e(url('villa-detail')); ?>"><?php echo e(_i('Villas')); ?></a></li>
                                     <li><a href="<?php echo e(url('contact')); ?>"><?php echo e(_i('Contact')); ?></a></li>
+                                    <li><a href="<?php echo e(url('')); ?>">FR</a></li>
+
                                 </ul>
                             </nav>
                             <div id="slide-overlay" class="slide-overlay"></div>
@@ -82,6 +82,46 @@
                                         <li><a href="<?php echo e(url('projet')); ?>"><?php echo e(_i('Le Projet')); ?></a></li>
                                         <li><a href="<?php echo e(url('villa-detail')); ?>"><?php echo e(_i('Villa')); ?></a></li>
                                         <li><a href="<?php echo e(url('contact')); ?>"><?php echo e(_i('Contact')); ?></a></li>
+                                        <?php $__currentLoopData = Config::get('laravel-gettext.supported-locales'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $locale): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                            <?php if((LaravelGettext::getLocale())): ?>
+                                                <?php if(LaravelGettext::getLocale()==$locale): ?>
+                                                <li class="has-child" style="text-align: center;">
+                                                    <a href="<?php echo e(route('lang',['locale'=>$locale])); ?>" style="color: #ad946a;">
+                                                        <?php if($locale == 'fr_FR'): ?>
+                                                            <span>FR</span>
+                                                        <?php else: ?>
+                                                            <span>EN</span>
+                                                        <?php endif; ?>
+                                                    </a>
+                                                    <ul class="child wow fadeInDown"  style="width: 5em;top: 42px;left: -18px;text-align: center;">
+                                                        <?php $__currentLoopData = Config::get('laravel-gettext.supported-locales'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $locale): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                            <?php if(LaravelGettext::getLocale()!=$locale): ?>
+                                                            <li><a href="<?php echo e(route('lang',['locale'=>$locale])); ?>">
+                                                                    <?php if($locale == 'fr_FR'): ?>
+                                                                        <span>FR</span>
+                                                                    <?php else: ?>
+                                                                        <span>EN</span>
+                                                                    <?php endif; ?>
+                                                                </a>
+                                                            </li>
+                                                            <?php endif; ?>
+                                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                                    </ul>
+                                                </li>
+                                                <?php break; ?>
+                                                <?php endif; ?>
+                                            <?php else: ?>
+                                            <li>
+                                                <a href="<?php echo e(route('lang',['locale'=>$locale])); ?>">
+                                                    <?php if($locale == 'fr_FR'): ?>
+                                                        <span>FR</span>
+                                                    <?php else: ?>
+                                                        <span>EN</span>
+                                                    <?php endif; ?>
+                                                </a>
+                                            </li>
+                                            <?php endif; ?>
+                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                     </ul>
                                 </nav>
                             </div>
@@ -98,7 +138,7 @@
             <footer id="footer" class="wrapper clearfix">
                 <div class="footer-text wow fadeIn text-center">
                     <h1><?php echo e(_i('Vous voulez plus d’informations?')); ?></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p><?php echo e(_i('Peu importe raison, n’hésitez surtout pas à prendre contact directement avec nous via ce formulaire, ça sera plus simple !')); ?></p>
                     <a href="<?php echo e(url('contact')); ?>" class="button-normal yellow"><?php echo e(_i('Contactez nous')); ?></a>
                 </div>
 
@@ -106,14 +146,14 @@
                     <div class="container">
                         <div class="copyright">
                             <ul class="footer-social">
-                                <li><a href="http://twitter.com/"><i class="icon icon-twitter"></i></a></li>
-                                <li><a href="http://facebook.com/"><i class="icon icon-facebook"></i></a></li>
-                                <li><a href="http://googleplus.com/"><i class="icon icon-googleplus"></i></a></li>
-                                <li><a href="http://skype.com/"><i class="icon icon-skype"></i></a></li>
-                                <li><a href="http://dribble.com/"><i class="icon icon-dribble"></i></a></li>
+                                <li><a href="http://twitter.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-twitter"></i></a></li>
+                                <li><a href="http://facebook.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-facebook"></i></a></li>
+                                <li><a href="http://googleplus.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-googleplus"></i></a></li>
+                                <li><a href="http://skype.com/" style="display: none; pointer-events: none;cursor: default"><i class="icon icon-skype"></i></a></li>
+                                <li><a href="http://dribble.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-dribble"></i></a></li>
                             </ul>
 
-                            <p>&copy; 2018 TajLUXURY Villa- <?php echo e(_i('Tous droits réservés. Réalisé par')); ?><a href="http://www.eureka-creation.ma/">Eureka Creation</a> </p>
+                            <p>&copy; 2018 - TAJ Luxury Villas - <?php echo e(_i('Tous droits réservés. Réalisé par ')); ?><a href="http://www.eureka-creation.ma/">Eureka Creation</a> </p>
                         </div>
                     </div>
                 </div>
@@ -126,6 +166,11 @@
         <!-- Footer Scripts
         ============================================= -->
         <!-- External -->
+
+        <!-- JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="<?php echo e(asset('frontend/js/jquery.js')); ?>"></script>
+        
         <script type="text/javascript" src="<?php echo e(asset('frontend/js/plugin.js')); ?>"></script>
         <script type="text/javascript" src="<?php echo e(asset('frontend/js/main.js')); ?>"></script>
 

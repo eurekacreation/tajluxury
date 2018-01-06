@@ -1,58 +1,354 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2017-12-27 18:04+0000\n"
-"PO-Revision-Date: 2017-12-27 18:04+0000\n"
+"POT-Creation-Date: 2018-01-06 13:40+0000\n"
+"PO-Revision-Date: 2018-01-06 13:40+0000\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _i\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: Http\n"
 "X-Poedit-SearchPath-1: ../resources/views\n"
 "X-Poedit-SearchPath-2: Console\n"
-"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages/\n"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:11
-msgid "Site officiel"
-msgstr "Official website"
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:23
+msgid "Présentation de"
+msgstr "Presentation of"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:69
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:81
-msgid "Accueil"
-msgstr "Home"
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:24
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:16
+msgid "Notre"
+msgstr "Our"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:70
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:82
-msgid "Le Projet"
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:24
+msgid "Projet"
 msgstr "Project"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:71
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:40
+msgid "RÉSIDENCE TAJ LUXURY VILLA"
+msgstr "TAJ LUXURY RESIDENCE"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:41
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:162
+msgid ""
+"Le projet de résidences Taj Luxury villa transforme votre rêve en réalité! "
+"Bénéficiez d’une offre totale de 24 villas haut standing, dont la première "
+"tranche de 12 villas est actuellement en cours de commercialisation* ."
+msgstr ""
+"The Taj Luxury villa project turns your dream into reality! Benefit from a "
+"total offer of 24 luxury villas, of which, the first installment of 12 "
+"villas is currently being marketed *."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:44
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:165
+msgid ""
+"Nos villas sont très bien équipées avec toutes les commodités modernes. "
+"Elles assemblent des styles traditionnel et contemporain pour vous "
+"accueillir dans un cadre féerique loin de l’agitation du centre ville. Situé "
+"dans un magnifique domaine privé, à seulement 20 minutes du centre de la "
+"ville rouge et à quelques minutes de l’aéroport international de Marrakech, "
+"au sein d’un magnifique parc planté de fleurs et riche en végétation exotique"
+msgstr ""
+"Our villas are very well equipped with all modern amenities. They combine "
+"traditional and contemporary styles to welcome you in a magical setting away "
+"from the hustle and bustle of the city center. Located in a beautiful "
+"private estate, just 20 minutes from the center of the red city and a few "
+"minutes from the international airport of Marrakech, in a beautiful park "
+"planted with flowers and rich in exotic vegetation"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:45
+msgid ""
+"Que vous cherchiez une villa de luxe moderne, une maison «intelligente» "
+"dotée d’une technologie de dernier cri ou que vous préfériez une maison "
+"écologique, les villas haut standing du projet Taj Luxury sont réalisées sur "
+"des parcelles d’une surface terrain variant entre 1100 m2 et 1500m2 avec une "
+"surface couverte de 400m2."
+msgstr ""
+"Whether you are looking for a modern luxury villa, a \"smart\" house with "
+"state-of-the-art technology, or you prefer an eco-friendly home, the luxury "
+"villas of the Taj Luxury project are built on plots of land varying between "
+"1100 m2 and 1500m2 with a covered area of 400m2."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:48
+msgid ""
+"Toutes les suites donnent sur de larges terrasses sur les trois façades de "
+"la villa afin de profiter au maximum de la vue privilégiée sur les montagnes "
+"de latlas que vous offre le site."
+msgstr ""
+"All suites overlook large terraces on the three facades of the villa to take "
+"full advantage of the privileged view of the atlas mountains."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:51
+msgid "* la deuxième tranche du projet sera commercialisée d’ici fin 2018."
+msgstr "* The second phase of the project will be marketed by the end of 2018."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:57
+msgid "INFORMATIONS LÉGALES"
+msgstr "LEGAL INFORMATION"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:58
+msgid ""
+"Taj Luxury Villa est immatriculé à la conservation foncière de Marrakech "
+"sous les références TF n 04/224659 et 04/224658."
+msgstr ""
+"Taj Luxury Villa is registered in the land conservation of Marrakech under "
+"the references TF n 04/224659 and 04/224658."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:59
+msgid ""
+"Une autorisation de construire a été délivrée à Taj Luxury Villa Marrakech "
+"SA par Monsieur le Président de la commune tasoultante, en date du 03 "
+"novembre 2017 sous le Numéro d’autorisation 73/2017."
+msgstr ""
+"A building permit has been issued to Taj Luxury Villa Marrakech (Ltd) by the "
+"President of the tasoultante municipality, dated November 03 2017 under the "
+"Authorization Number 73/2017."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:78
+msgid ""
+"Des mises à niveau étendues et un entretien minutieux ont maintenu ce projet "
+"dans un état de premier ordre. Les planchers de bois franc et les nouveaux "
+"tapis créent un espace de vie très confortable!"
+msgstr ""
+"Extensive upgrades and careful maintenance have kept this project in a state "
+"of first order. Hardwood floors and new carpets create a very comfortable "
+"living space!"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:81
+msgid "Des vues imprenables"
+msgstr "Stunning views"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:82
+msgid ""
+" on a veillé à vous offrir des vues uniques et sensationnelles avec les "
+"montagnes de l’Atlas comme arrière-plan pour vivre une expérience Resort de "
+"luxe vraiment exclusive."
+msgstr ""
+"We have made sure to offer you unique and sensational views of the Atlas "
+"Mountains as a backdrop for a truly exclusive luxury resort experience."
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:86
+msgid "Espaces verts"
+msgstr "Green spaces"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:87
+msgid ""
+"une décoration zen avec des espaces de vie confortables et innovants conçus "
+"dans le souci de vous satisfaire et bénéficiant d’un environnement "
+"écologique grâce à de nombreux espaces verts fondus dans le respect total de "
+"la nature."
+msgstr ""
+"A Zen decoration with comfortable and innovative living spaces designed with "
+"the aim of satisfying you and benefiting from an ecological environment "
+"thanks to numerous green spaces merged with a total respect for nature"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:91
+msgid "Faible densité"
+msgstr "Low density"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:92
+msgid ""
+"Projet résidentiel à faible densité avec une conception favorisant "
+"l’épanouissement de communautés de vie. Des villas privées garantissant une "
+"masse de population affaiblie pour une demeure souveraine et une discrétion "
+"garantie !"
+msgstr ""
+"A low-density residential project with a design that promotes the "
+"development of active and living communities. Private villas that guarantee "
+"a deliberately weakened population mass for a sovereign residence and a "
+"guaranteed discretion!"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:96
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:126
+msgid "Piscine"
+msgstr "Swimming pool"
+
+#: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:97
+msgid ""
+"Qui n’a jamais rêvé d’un petit-déjeuner au bord de la piscine? Se détendre "
+"dans une chaise longue avec un bon livre, se reposer au soleil, ou "
+"simplement se relaxer et ne rien faire. Nos villas de Luxe avec piscine "
+"privée vous permettent d’obtenir ce que vous désirez !"
+msgstr ""
+"Who has not dreamed of a breakfast by the pool, chilling out in a lounge "
+"chair with a good book, spending vacation time under the sun, or just relax "
+"and do nothing. Our luxury villas with private pools allow you to get what "
+"you want, whenever you want it!"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:15
+msgid "A propos de"
+msgstr "About our"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:16
 #: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:83
 msgid "Villa"
 msgstr "Villa"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:72
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:31
+msgid "DÉTAILS"
+msgstr "DETAILS"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:31
+msgid "DE LA PROPRIÉTÉ"
+msgstr "OF THE PROPERTY"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:37
+msgid "Surface couverte"
+msgstr "Covered area"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:43
+msgid "Chambres"
+msgstr "Bedrooms"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:49
+msgid "Les salles de bain"
+msgstr "Bathrooms"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:55
+msgid "Année de construction"
+msgstr "Year of construction"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:113
+msgid "ÉQUIPEMENTS"
+msgstr "AMENITIES"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:118
+msgid "Climatisation"
+msgstr "Air-conditioning "
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:122
+msgid "Balcons"
+msgstr "Balconies"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:130
+msgid "Salon de télévision"
+msgstr "Living room"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:134
+msgid "Wifi"
+msgstr "Wifi"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:138
+msgid "Parking"
+msgstr "Parking"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:142
+msgid "lit doublé"
+msgstr "double bed"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:146
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:82
+msgid "Telephone"
+msgstr "Phone"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:150
+msgid "Alarm"
+msgstr "Alarm"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:154
+msgid "Garage"
+msgstr ""
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:163
+msgid "Chambres luxueusement confortables dans un style ultramoderne !"
+msgstr "COMFORTABLE LUXURIOUS ROOMS IN AN ULTRAMODERN STYLE!"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:164
+msgid ""
+"Imprégnez-vous de l’atmosphère orientale et de la décoration élégante de nos "
+"villas Deluxe. Les chambres sont joliment décorées avec des couleurs "
+"profondes qui s’harmonisent avec le bois et l’habillage chic du couloir, "
+"créant ainsi un contraste élégant avec la lumière."
+msgstr ""
+"Get immersed in the oriental atmosphere and elegant decor of our Deluxe "
+"villas. The rooms are beautifully decorated with deep colors that match up "
+"the wood and chic decor of the hallway, creating an elegant contrast with "
+"the light."
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:165
+msgid ""
+"Chacune des villas offre un confort et un intérieur somptueux, avec des "
+"couleurs riches, des tissus épais et des meubles élégants. Cela se combine "
+"pour créer un équilibre harmonieux et une atmosphère agréablement "
+"chaleureuse. Imaginez-vous confortablement assis sur votre terrasse ou votre "
+"balcon en admirant la magnifique vue sur les montagnes de l’Atlas, un "
+"spectacle à couper le souffle !"
+msgstr ""
+"Each of the villas offers sumptuous comfort and interior, with rich colors, "
+"thick fabrics and elegant furniture. This combines to create a harmonious "
+"balance and a pleasantly warm atmosphere. Imagine yourself sitting "
+"comfortably on your terrace or balcony while admiring the magnificent view "
+"of the Atlas Mountains, a breathtaking sight!"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:180
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:203
+msgid "VUE INTERIEURE/EXTERIEURE"
+msgstr "INSIDE/ EXTERIOR VIEW"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:181
+msgid "NOTRE"
+msgstr "OUR"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:181
+msgid "GALERIE"
+msgstr "GALLERY"
+
+#: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:195
+msgid "Voir"
+msgstr "View"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:9
+msgid "Site officiel"
+msgstr "Official website"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:67
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:81
+msgid "Accueil"
+msgstr "Home"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:68
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:82
+msgid "Le Projet"
+msgstr "Project"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:69
+#, fuzzy
+#| msgid "Villa"
+msgid "Villas"
+msgstr "Villa"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:70
 #: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:84
 msgid "Contact"
 msgstr "Contact"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:100
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:146
 msgid "Vous voulez plus d’informations?"
 msgstr "Want more information?"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:102
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:147
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:77
+msgid ""
+"Peu importe raison, n’hésitez surtout pas à prendre contact directement avec "
+"nous via ce formulaire, ça sera plus simple !"
+msgstr ""
+"Whatever the reason, do not hesitate to contact us directly via this "
+"application, it will be easier!"
+
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:148
 msgid "Contactez nous"
 msgstr "Contact us"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:116
-msgid "Tous droits réservés. Réalisé par"
-msgstr "All rights reserved, Realized by"
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:162
+msgid "Tous droits réservés. Réalisé par "
+msgstr "all rights reserved. Produced by"
 
 #: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:34
 msgid "Vous souhaite la bienvenue"
@@ -74,57 +370,77 @@ msgstr "Request to be recalled"
 msgid "Demander Brochure"
 msgstr "Request Brochure"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:48
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:61
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:74
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:50
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:81
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:104
 msgid "Nom"
 msgstr "Name"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:49
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:62
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:75
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:51
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:105
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:78
 msgid "Email"
 msgstr "Email"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:50
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:64
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:76
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:53
+msgid "Période de la journée"
+msgstr "Time of day"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:54
+msgid "Matin"
+msgstr "Morning"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:55
+msgid "Après-midi"
+msgstr "Afternoon"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:56
+msgid "Soir"
+msgstr "Evening"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:58
+msgid "Date de rendez-vous"
+msgstr "Make an appointment"
+
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:59
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:64
 msgid "Message"
 msgstr "Message"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:51
-msgid "Date"
-msgstr "Date"
-
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:52
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:70
 msgid "Prendre rendez vous"
 msgstr "Make appointment"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:63
-msgid "Telephone"
-msgstr "Phone"
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:83
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:63
+msgid "Object"
+msgstr "Subject"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:65
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:93
 msgid "Être rappelé"
 msgstr "Be reminded"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:77
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:115
 msgid "Télécharger"
 msgstr "Download"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:98
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:136
 msgid "Pourquoi"
 msgstr "Why"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:102
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:140
 msgid ""
 "Baptisée « La Perle du Sud », Marrakech vous offre un cadre dépaysant, à "
 "seulement quelques heures d’avion des principales capitales européennes. Par "
 "ses senteurs, ses couleurs et son ambiance, la ville ocre charme ses hôtes "
 "qui n’ont souvent qu’une envie en la quittant…y revenir."
 msgstr ""
+"Called \"The Pearl of the South\", Marrakech offers an exotic setting, just "
+"a few hours by plane from the main European capitals. With its scents, its "
+"colors and its atmosphere, the ocher city charms its guests who often have "
+"only one desire when leaving it ... to return there."
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:105
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:143
 msgid ""
 "Fondée en 1962 par Youssef Ibn Tachfine, premier roi de la dynastie des "
 "Almoravides, Marrakech est la troisième plus grande ville du Maroc et "
@@ -136,72 +452,119 @@ msgid ""
 "l’UNESCO, ou encore le fameux quartier de la Palmeraie qui abrite les villas "
 "des plus grandes stars."
 msgstr ""
+"Founded in 1962 by Youssef Ibn Tachfine, first king of the Almoravid "
+"dynasty, Marrakech is the third largest city in Morocco and has the title of "
+"imperial city. Located at the foot of the Atlas Mountains and just over an "
+"hour's drive from the ocean, the city enjoys a strategic location. The Pearl "
+"of the South has many famous monuments around the world, such as La "
+"Koutoubia, Jemaa El Fna Square that is registered, since 2001, as an "
+"intangible cultural heritage of humanity by UNESCO, or the famous district "
+"of the Palmeraie which houses the villas of the biggest stars."
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:120
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:158
 msgid "RÉSIDENCE"
 msgstr "RESIDENCE"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:124
-msgid ""
-"Le projet de résidences Taj Luxury villa transforme votre rêve en réalité! "
-"Bénéficiez d’une offre totale de 24 villas haut standing, dont la première "
-"tranche de 12 villas est actuellement en cours de commercialisation* ."
-msgstr ""
-
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:127
-msgid ""
-"Nos villas sont très bien équipées avec toutes les commodités modernes. "
-"Elles assemblent des styles traditionnel et contemporain pour vous "
-"accueillir dans un cadre féerique loin de l’agitation du centre ville. Situé "
-"dans un magnifique domaine privé, à seulement 20 minutes du centre de la "
-"ville rouge et à quelques minutes de l’aéroport international de Marrakech, "
-"au sein d’un magnifique parc planté de fleurs et riche en végétation exotique"
-msgstr ""
-
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:140
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:178
 msgid "LES POINTS FORTS DU PROJET"
 msgstr "THE STRONG POINTS OF THE PROJECT"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:145
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:183
 msgid "Une faible densité d’habitation"
-msgstr ""
+msgstr "Low density of housing"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:146
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:184
 msgid "Une situation géographique privilégiée"
-msgstr ""
+msgstr "A privileged geographical situation"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:147
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:185
 msgid "Un soin particulier apporté aux finitions"
-msgstr ""
+msgstr "Particular care brought to the workmanship"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:148
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:186
 msgid "Services personnalisés sur place"
-msgstr ""
+msgstr "Personalized services on site"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:149
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:187
 msgid "Un cadre idéal pour les familles"
-msgstr ""
+msgstr "An ideal setting for families"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:150
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:188
 msgid "Architecture authentique et raffinée"
-msgstr ""
+msgstr "Authentic and refined architecture"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:151
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:189
 msgid "Sécurité et discrétion garanties"
-msgstr ""
+msgstr "- Security and discretion guaranteed"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:165
-msgid "VUE INTERIEURE/EXTERIEURE"
-msgstr "INNER / EXTERIOR VIEW"
-
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:166
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:204
 msgid "DÉCOUVREZ NOS"
-msgstr "DISCOVER OUR"
+msgstr "DISCOVER OUR VILLAS"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:166
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:204
 msgid "VILLAS"
 msgstr "VILLAS"
 
-#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:178
+#: ../storage/framework/messages/cb1b2acac8e56356aa40cff62fafdbf41b706e56.php.php:218
 msgid "Vue"
 msgstr "View"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:20
+msgid "Contact nous"
+msgstr "Contact us"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:34
+msgid "Vous désirez nous contacter?"
+msgstr "Want to contact us?"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:35
+msgid "CONTACTEZ"
+msgstr "CONTACT"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:35
+msgid "NOTRE AGENCE"
+msgstr "OUR AGENCY"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:60
+msgid "Nom et Prenom"
+msgstr "Full name"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:61
+msgid "Numéro de Telephone"
+msgstr "Phone Number"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:62
+msgid "Adresse Email"
+msgstr "Email Address"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:63
+msgid "Subject required"
+msgstr "Object "
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:65
+msgid "Envoyer le Message"
+msgstr "Send the message"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:74
+msgid "Vous n’avez pas trouvé réponse à vos questions sur notre site ? "
+msgstr "You have not found an answer to your questions on our site?"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:75
+msgid ""
+"Vous avez une demande spécifique en lien avec votre réservation de location?"
+msgstr "Do you have a specific request related to your rental booking?"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:76
+msgid "Vous avez besoin d’aide pour choisir une villa ?"
+msgstr "Need help choosing a villa?"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:79
+msgid "Tel"
+msgstr "phone"
+
+#: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:80
+msgid "Adresse"
+msgstr "Address"
+
+#~ msgid "Date"
+#~ msgstr "Date"

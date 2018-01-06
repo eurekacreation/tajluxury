@@ -47,17 +47,17 @@
                 <div class="agent contact-form clearfix">
 
                     <div class="form wow fadeIn" style="padding-top: 0;">
-                    	@if ($errors->any())
-						    <div class="alert alert-danger">
-						        <ul>
-						            @foreach ($errors->all() as $error)
-						                <li>{{ $error }}</li>
-						            @endforeach
-						        </ul>
-						    </div>
-						@endif
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
                         <form name="contact_form" id="contact_form"  method="post" action="{{ url('contact/submit') }}" onSubmit="return true">
-                        	{{ csrf_field() }}
+                            {{ csrf_field() }}
                             <input type="text" name="contact_name" id="name" placeholder="{{_i('Nom et Prenom')}}" required="required" />
                             <input type="text" name="contact_phone" id="tel" placeholder="{{_i('Numéro de Telephone')}}" required="required" />
                             <input type="text" name="contact_email" id="email" placeholder="{{_i('Adresse Email')}}" required="required" />
@@ -75,19 +75,18 @@
                             <p class="desc">{{_i('Vous n’avez pas trouvé réponse à vos questions sur notre site ? ')}}<br>
                             {{_i('Vous avez une demande spécifique en lien avec votre réservation de location?')}}<br>
                             {{_i('Vous avez besoin d’aide pour choisir une villa ?')}}<br>
-                            {{_i('Peu importe la raison, n’hésitez surtout pas à prendre contact directement avec nous via ce formulaire, ça sera plus simple !')}} </p>
+                            {{_i('Peu importe raison, n’hésitez surtout pas à prendre contact directement avec nous via ce formulaire, ça sera plus simple !')}} </p>
                             <p>{{_i('Email')}} : contact@tajluxuryvillas.com</p>
-                            <p>{{_i('Tel')}} : (212) 655 227 112</p>
-                            <p>{{_i('Fax')}} : (212) 678 456 373</p>
-                            <p>{{_i('Adresse')}} : BP 5412 - KM 10 route d’Amizmiz - MARRAKECH - MAROC</p>
+                            <p>{{_i('Tel')}} : (212) 666 91 95 99</p>
+                            <p>{{_i('Adresse')}} : KM 10 route d’Amizmiz - MARRAKECH - MAROC</p>
                         </div>
                         <div class="agent-social">
                             <ul>
-                                <li><a href="http://twitter.com/"><i class="icon icon-twitter"></i></a></li>
-                                <li><a href="http://facebook.com/"><i class="icon icon-facebook"></i></a></li>
-                                <li><a href="http://googleplus.com/"><i class="icon icon-googleplus"></i></a></li>
-                                <li><a href="http://skype.com/"><i class="icon icon-skype"></i></a></li>
-                                <li><a href="http://dribble.com/"><i class="icon icon-dribble"></i></a></li>
+                                <li><a href="http://twitter.com/" style="pointer-events: none;cursor: default"><i class="icon icon-twitter"></i></a></li>
+                                <li><a href="http://facebook.com/" style="pointer-events: none;cursor: default"><i class="icon icon-facebook"></i></a></li>
+                                <li><a href="http://googleplus.com/" style="pointer-events: none;cursor: default"><i class="icon icon-googleplus"></i></a></li>
+                                <li><a href="http://skype.com/" style="pointer-events: none;cursor: default"><i class="icon icon-skype"></i></a></li>
+                                <li><a href="http://dribble.com/" style="pointer-events: none;cursor: default"><i class="icon icon-dribble"></i></a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 @extends('TLVlayouts.master')
 
-@section('title', 'Site Officiel')
+@section('title', 'Vente Villa Marrakech')
 
 @section('content')
 
@@ -210,7 +210,7 @@
 									<img src="{{ asset('storage/').'/'.$roomimage }}"  alt="TajLuxury Villa - {{ $room->title }}" />
                                     <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "/></svg>
                                     <figcaption>
-                                        <h2>{{ $room->title }}</h2>
+                                        <h2>{{  $room->getTranslatedAttribute('title') }}</h2>
                                         <span>{{_i('Vue')}}</span>
                                     </figcaption>
                                 </figure>

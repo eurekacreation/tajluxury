@@ -80,7 +80,7 @@
                     	<?php $roomimage = substr_replace( $room->images, '-slider', -4, -4);?>
 						<img src="{{ asset('storage/').'/'.$roomimage }}" alt="TajLuxury Villa - {{ $room->title }}" />
                         <div data-u="thumb">
-                            <span class="d">{{ $room->title }}</span>
+                            <span class="d">{{  $room->getTranslatedAttribute('title')  }}</span>
                         </div>
                     </div>
                     @endforeach
@@ -183,8 +183,8 @@
 									<img src="{{ asset('storage/').'/'.$roomimage }}"  alt="TajLuxury Villa - {{ $room->title }}" />
                                     <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "/></svg>
                                     <figcaption>
-                                        <h2>{{ $room->title }}</h2>
-                                        <span>{{_i('Vue')}}</span>
+                                        <h2>{{  $room->getTranslatedAttribute('title')  }}</h2>
+                                        <span>{{_i('Voir')}}</span>
                                     </figcaption>
                                 </figure>
                             </a>

@@ -1,10 +1,10 @@
-<?php $__env->startSection('title', 'Site Officiel'); ?>
+<?php $__env->startSection('title', 'Vente Villa Marrakech'); ?>
 
 <?php $__env->startSection('content'); ?>
 
             <!-- SLIDER START
             ============================================= -->
-            <section id="slider" class="flexslider-wrap fullscreen clearfix">
+            <section id="slider" class="flexslider-wrap fullscreen clearfix" style="height: 672px;">
                 <div class="flexslider clearfix">
                     <ul class="slides">
                         <li data-thumb="<?php echo e(asset('frontend/img/content/slider/slide-sm-1.jpg')); ?>">
@@ -44,12 +44,30 @@
                             <div id="prendre_rdv" style="position: absolute;right: 92px;    top: 0;display:none" class="slider-form col-md-4 wow fadeIn text-center" data-wow-delay="0.5s">
                                 <div class="form-wrap">
                                     <div class="form-appointment">
-                                        <form method="post" action="">
-                                            <input type="text" name="name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" />
-                                            <input type="text" name="email" id="email" placeholder="<?php echo e(_i('Email')); ?>" />
-                                            <textarea name="message" id="message" cols="10" rows="2" placeholder="<?php echo e(_i('Message')); ?>"></textarea>
-                                            <input type="text" id="datepicker" placeholder="<?php echo e(_i('Date')); ?>">
-                                            <button class="button-normal yellow"><?php echo e(_i('Prendre rendez vous')); ?></button>
+                                        <form name="demandeRDV_form" method="post" action="<?php echo e(url('DRDV/submit')); ?>" onSubmit="return true">
+                                            <?php echo e(csrf_field()); ?>
+
+                                            <input type="text" name="demandeRDV_name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" required="required" />
+                                            <input type="text" name="demandeRDV_email" id="email" placeholder="<?php echo e(_i('Email')); ?>" required="required" />
+                                            <select name="demandeRDV_meetingtime" required="required">
+                                                <option value="" disabled selected><?php echo e(_i('Période de la journée')); ?></option>
+                                                <option value="Matin"><?php echo e(_i('Matin')); ?></option>
+                                                <option value="Après-midi"><?php echo e(_i('Après-midi')); ?></option>
+                                                <option value="Soir"><?php echo e(_i('Soir')); ?></option>
+                                            </select>
+                                            <input type="text" name="demandeRDV_meetingdate" id="datepicker" placeholder="<?php echo e(_i('Date de rendez-vous')); ?>" required="required">
+                                            <textarea name="demandeRDV_message" id="message" cols="45" rows="3" placeholder="<?php echo e(_i('Message')); ?>" style="resize:vertical" required="required" ></textarea>
+                                            
+                                            <?php if($errors->any()): ?>
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                            <li><?php echo e($error); ?></li>
+                                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                                    </ul>
+                                                </div>
+                                            <?php endif; ?>
+                                            <input name="demandeER_submit" type="submit" value="<?php echo e(_i('Prendre rendez vous')); ?>" class="button-normal yellow">
                                         </form>
                                     </div>
                                 </div>
@@ -57,12 +75,22 @@
                             <div id="etre_rappler" style="position: absolute;right: 92px;    top: 0;display:none" class="slider-form col-md-4 wow fadeIn text-center" data-wow-delay="0.5s">
                                 <div class="form-wrap">
                                     <div class="form-appointment">
-                                        <form method="post" action="">
-                                            <input type="text" name="name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" />
-                                            <input type="text" name="email" id="email" placeholder="<?php echo e(_i('Email')); ?>" />
-                                            <input type="text" name="tel" id="tel" placeholder="<?php echo e(_i('Telephone')); ?>" />
-                                            <textarea name="message" id="message" cols="10" rows="2" placeholder="<?php echo e(_i('Message')); ?>"></textarea>
-                                            <button class="button-normal yellow"><?php echo e(_i('Être rappelé')); ?></button>
+                                        <form name="demandeER_form" method="post" action="<?php echo e(url('DER/submit')); ?>" onSubmit="return true">
+                                            <?php echo e(csrf_field()); ?>
+
+                                            <input type="text" name="demandeER_name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" required="required" />
+                                            <input type="text" name="demandeER_phone" id="tel" placeholder="<?php echo e(_i('Telephone')); ?>" required="required" />
+                                            <input type="text" name="demandeER_subject" id="subject" placeholder="<?php echo e(_i('Object')); ?>" required="required" />
+                                            <?php if($errors->any()): ?>
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                            <li><?php echo e($error); ?></li>
+                                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                                    </ul>
+                                                </div>
+                                            <?php endif; ?>
+                                            <input name="demandeER_submit" type="submit" value="<?php echo e(_i('Être rappelé')); ?>" class="button-normal yellow">
                                         </form>
                                     </div>
                                 </div>
@@ -70,11 +98,21 @@
                             <div id="demande_brochure" style="position: absolute;right: 92px;    top: 0;display:none" class="slider-form col-md-4 wow fadeIn text-center" data-wow-delay="0.5s">
                                 <div class="form-wrap">
                                     <div class="form-appointment">
-                                        <form method="post" action="">
-                                            <input type="text" name="name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" />
-                                            <input type="text" name="email" id="email" placeholder="<?php echo e(_i('Email')); ?>" />
-                                            <textarea name="message" id="message" cols="10" rows="2" placeholder="<?php echo e(_i('Message')); ?>"></textarea>
-                                            <button class="button-normal yellow"><?php echo e(_i('Télécharger')); ?></button>
+                                        <form name="demandeBroch_form" method="post" action="<?php echo e(url('DB/submit')); ?>" onSubmit="return true">
+                                            <?php echo e(csrf_field()); ?>
+
+                                            <input type="text" name="demandeBroch_name" id="name" placeholder="<?php echo e(_i('Nom')); ?>" required="required" />
+                                            <input type="email" name="demandeBroch_email" id="email" placeholder="<?php echo e(_i('Email')); ?>" required="required" />
+                                            <?php if($errors->any()): ?>
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                            <li><?php echo e($error); ?></li>
+                                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                                    </ul>
+                                                </div>
+                                            <?php endif; ?>
+                                            <input name="demandeBroch_submit" type="submit" value="<?php echo e(_i('Télécharger')); ?>" class="button-normal yellow">
                                         </form>
                                     </div>
                                 </div>
@@ -135,7 +173,7 @@
                 ============================================= -->
                 <div class="facilities clearfix" style="background-image:url('<?php echo e(asset('frontend/img/content/home/pointforte.jpg')); ?>');">
 
-                    <div class="facilities-detail wrapper wow fadeIn" style="    position: relative;text-align: center;right: 25%;left: 25%;float: none;float: left!important;background-color: #daa50bde;padding: 50px;margin: 3%;">
+                    <div class="facilities-detail wrapper wow fadeIn" style="    position: relative;text-align: center;right: 25%;left: 25%;float: none;float: left!important;background-color: #ad946ade;padding: 50px;margin: 3%;">
                         <div class="title text-center" style="margin-bottom: 10px;">
                             <h2 style="color: #fff;"><?php echo e(_i('LES POINTS FORTS DU PROJET')); ?></h2>
                         </div>
@@ -170,11 +208,13 @@
                         	<?php $__currentLoopData = $Rooms; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $room): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                             <a href="<?php echo e(url('villa-detail')); ?>" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
                                 <figure>
-                                	<?php $roomimage = substr_replace( $room->images, '-list', -4, -4);?>
+                                	<?php 
+                                	$roomimage = substr_replace( $room->images, '-list', -4, -4);
+                                	?>
 									<img src="<?php echo e(asset('storage/').'/'.$roomimage); ?>"  alt="TajLuxury Villa - <?php echo e($room->title); ?>" />
                                     <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "/></svg>
                                     <figcaption>
-                                        <h2><?php echo e($room->title); ?></h2>
+                                        <h2><?php echo e($room->getTranslatedAttribute('title')); ?></h2>
                                         <span><?php echo e(_i('Vue')); ?></span>
                                     </figcaption>
                                 </figure>
@@ -198,7 +238,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         
 	        <script type="text/javascript">
-	            $(function() {
+	            (function() {
 	    
 	                function init() {
 	                    var speed = 300,
