@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2018-01-06 13:40+0000\n"
-"PO-Revision-Date: 2018-01-06 13:40+0000\n"
+"POT-Creation-Date: 2018-01-08 11:41+0000\n"
+"PO-Revision-Date: 2018-01-08 11:42+0000\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: _i\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: Http\n"
 "X-Poedit-SearchPath-1: ../resources/views\n"
 "X-Poedit-SearchPath-2: Console\n"
-"X-Poedit-SearchPath-3: ../storage/framework/messages/\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
 
 #: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:23
 msgid "Présentation de"
@@ -104,10 +104,10 @@ msgstr ""
 #: ../storage/framework/messages/1327bd622741b9145e7bf6304b8adecf7e9617ce.php.php:59
 msgid ""
 "Une autorisation de construire a été délivrée à Taj Luxury Villa Marrakech "
-"SA par Monsieur le Président de la commune tasoultante, en date du 03 "
+"SARL par Monsieur le Président de la commune tasoultante, en date du 03 "
 "novembre 2017 sous le Numéro d’autorisation 73/2017."
 msgstr ""
-"A building permit has been issued to Taj Luxury Villa Marrakech (Ltd) by the "
+"A building permit has been issued to Taj Luxury Villa Marrakech (LLC) by the "
 "President of the tasoultante municipality, dated November 03 2017 under the "
 "Authorization Number 73/2017."
 
@@ -187,7 +187,7 @@ msgid "A propos de"
 msgstr "About our"
 
 #: ../storage/framework/messages/47abb4b726692fd3d9b4dd2f23613298562cab24.php.php:16
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:83
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:122
 msgid "Villa"
 msgstr "Villa"
 
@@ -309,12 +309,12 @@ msgid "Site officiel"
 msgstr "Official website"
 
 #: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:67
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:81
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:120
 msgid "Accueil"
 msgstr "Home"
 
 #: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:68
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:82
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:121
 msgid "Le Projet"
 msgstr "Project"
 
@@ -325,15 +325,15 @@ msgid "Villas"
 msgstr "Villa"
 
 #: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:70
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:84
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:123
 msgid "Contact"
 msgstr "Contact"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:146
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:179
 msgid "Vous voulez plus d’informations?"
 msgstr "Want more information?"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:147
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:180
 #: ../storage/framework/messages/faedeede401c9b3b31084c4fa1589ba380289312.php.php:77
 msgid ""
 "Peu importe raison, n’hésitez surtout pas à prendre contact directement avec "
@@ -342,11 +342,11 @@ msgstr ""
 "Whatever the reason, do not hesitate to contact us directly via this "
 "application, it will be easier!"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:148
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:181
 msgid "Contactez nous"
 msgstr "Contact us"
 
-#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:162
+#: ../storage/framework/messages/c4fefcda48faad9299ea725dcf90f90fe944299e.php.php:195
 msgid "Tous droits réservés. Réalisé par "
 msgstr "all rights reserved. Produced by"
 

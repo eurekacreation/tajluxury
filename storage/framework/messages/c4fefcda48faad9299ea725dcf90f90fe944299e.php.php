@@ -68,7 +68,46 @@
                                     <li><a href="<?php echo e(url('projet')); ?>"><?php echo e(_i('Le Projet')); ?></a></li>
                                     <li><a href="<?php echo e(url('villa-detail')); ?>"><?php echo e(_i('Villas')); ?></a></li>
                                     <li><a href="<?php echo e(url('contact')); ?>"><?php echo e(_i('Contact')); ?></a></li>
-                                    <li><a href="<?php echo e(url('')); ?>">FR</a></li>
+                                        <?php $__currentLoopData = Config::get('laravel-gettext.supported-locales'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $locale): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                            <?php if((LaravelGettext::getLocale())): ?>
+                                                <?php if(LaravelGettext::getLocale()==$locale): ?>
+                                                <li class="has-child" style="">
+                                                    <a href="<?php echo e(route('lang',['locale'=>$locale])); ?>" style="color: #fff;">
+                                                        <?php if($locale == 'fr_FR'): ?>
+                                                            <span>FR</span>
+                                                        <?php else: ?>
+                                                            <span>EN</span>
+                                                        <?php endif; ?>
+                                                    </a>
+                                                    <ul class="child wow fadeInDown"  style="width: 5em;top: 42px;left: -18px;">
+                                                        <?php $__currentLoopData = Config::get('laravel-gettext.supported-locales'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $locale): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                            <?php if(LaravelGettext::getLocale()!=$locale): ?>
+                                                            <li><a href="<?php echo e(route('lang',['locale'=>$locale])); ?>">
+                                                                    <?php if($locale == 'fr_FR'): ?>
+                                                                        <span>FR</span>
+                                                                    <?php else: ?>
+                                                                        <span>EN</span>
+                                                                    <?php endif; ?>
+                                                                </a>
+                                                            </li>
+                                                            <?php endif; ?>
+                                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                                    </ul>
+                                                </li>
+                                                <?php break; ?>
+                                                <?php endif; ?>
+                                            <?php else: ?>
+                                            <li>
+                                                <a href="<?php echo e(route('lang',['locale'=>$locale])); ?>">
+                                                    <?php if($locale == 'fr_FR'): ?>
+                                                        <span>FR</span>
+                                                    <?php else: ?>
+                                                        <span>EN</span>
+                                                    <?php endif; ?>
+                                                </a>
+                                            </li>
+                                            <?php endif; ?>
+                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
                                 </ul>
                             </nav>

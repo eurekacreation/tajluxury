@@ -54,7 +54,7 @@
                             <div class="room-detail widget col-md-4">
                                 <h3 class="widget-title">{{_i('INFORMATIONS LÉGALES')}}</h3>
                                 <p>{{_i('Taj Luxury Villa est immatriculé à la conservation foncière de Marrakech sous les références TF n 04/224659 et 04/224658.')}}</p>
-                                <p>{{_i('Une autorisation de construire a été délivrée à Taj Luxury Villa Marrakech SA par Monsieur le Président de la commune tasoultante, en date du 03 novembre 2017 sous le Numéro d’autorisation 73/2017.')}}</p>
+                                <p>{{_i('Une autorisation de construire a été délivrée à Taj Luxury Villa Marrakech SARL par Monsieur le Président de la commune tasoultante, en date du 03 novembre 2017 sous le Numéro d’autorisation 73/2017.')}}</p>
 
                             </div>
                             
