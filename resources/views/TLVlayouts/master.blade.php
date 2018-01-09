@@ -6,8 +6,8 @@
 <html dir="ltr" lang="fr-FR">
 
     <head>
-        <meta name="description" content="Taj Luxury Villas - {{_i('Site officiel')}} " />
-        <meta name="keywords" content="Taj Luxury Villas, Maroc, Marrakech, Location, villas, Lux, vente" />
+        <meta name="description" content="Le projet de résidences Taj Luxury villa transforme votre rêve en réalité! Bénéficiez d’une offre totale de 24 villas haut standing, dont la première tranche de 12 villas est actuellement en cours de commercialisation " />
+        <meta name="keywords" content="Taj Luxury Villas, Maroc, Marrakech, vente, villas, Luxe, vente villa" />
         <meta name="author" content="eurekacreation-SaadMansouri">
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +30,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
-        <title>Taj Luxury Villa | @yield('title') </title>
+        <title>Taj Luxury Villas | @yield('title') </title>
 
 
         @yield('css')
