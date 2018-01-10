@@ -16,6 +16,9 @@
         ============================================= -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> 
 
+        <!-- fancybox Stylesheets -->
+        <link rel="stylesheet" href="{{ asset('frontend/plugins/fancybox/jquery.fancybox.min.css') }}">
+
         <!-- Stylesheets
         ============================================= -->
         <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}" type="text/css" />
@@ -28,7 +31,6 @@
         <link rel="shortcut icon" href="{{ asset('frontend/img/tlv-logo-y.jpg') }}">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
 
         <title>Taj Luxury Villas | @yield('title') </title>
 
@@ -185,12 +187,12 @@
                     <div class="container">
                         <div class="copyright">
                             <ul class="footer-social">
-                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/tajluxuryvillas/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tajluxuryvillas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 
                             </ul>
 
-                            <p>&copy; 2018 - TAJ Luxury Villas - {{_i('Tous droits réservés. Réalisé par ')}}<a href="http://www.eureka-creation.ma/">Eureka Creation</a> </p>
+                            <p>&copy; 2018 - TAJ Luxury Villas - {{_i('Tous droits réservés. Réalisé par ')}}<a href="http://www.eureka-creation.ma/" target="_blank">Eureka Creation</a> </p>
                         </div>
                     </div>
                 </div>
@@ -210,6 +212,9 @@
         
         <script type="text/javascript" src="{{ asset('frontend/js/plugin.js') }}"></script>
         <script type="text/javascript" src="{{ asset('frontend/js/main.js') }}"></script>
+
+        <script type="text/javascript" src="{{ asset('frontend/plugins/fancybox/jquery.fancybox.min.js') }}"></script>
+
 
         @yield('scripts')
 

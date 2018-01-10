@@ -175,7 +175,7 @@
 
                         <section id="grid" class="grid clearfix">
                         	@foreach ($Rooms as $room)
-                            <a href="{{ url('villa-detail') }}" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                            <a data-fancybox="gallery" href="{{ asset('storage/').'/'.$room->images }}" class="fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
                                 <figure>
                                 	<?php 
                                 	$roomimage = substr_replace( $room->images, '-list', -4, -4);

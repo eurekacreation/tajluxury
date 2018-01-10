@@ -78,12 +78,12 @@
                             {{_i('Peu importe raison, n’hésitez surtout pas à prendre contact directement avec nous via ce formulaire, ça sera plus simple !')}} </p>
                             <p>{{_i('Email')}} : contact@tajluxuryvillas.com</p>
                             <p>{{_i('Tel')}} : (212) 666 91 95 99</p>
-                            <p>{{_i('Adresse')}} : KM 10 route d’Amizmiz - MARRAKECH - MAROC</p>
+                            <p>{{_i('Adresse')}} : KM 4 route d’Amizmiz - MARRAKECH - MAROC</p>
                         </div>
                         <div class="agent-social">
                             <ul>
-                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/tajluxuryvillas/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tajluxuryvillas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>

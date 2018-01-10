@@ -11,9 +11,9 @@
         $(".animsition").animsition({
             inClass: 'fade-in',
             outClass: 'fade-out',
-            inDuration: 1500,
+            inDuration: 800,
             outDuration: 800,
-            linkElement: 'a:not([target="_blank"]):not([href^=#], [class^="image-link"])',
+            // linkElement: 'a:not([target="_blank"]):not([href^=#], [class^="image-link"])',
             loading: true,
             loadingParentElement: 'body', //animsition wrapper element
             loadingClass: 'animsition-loading',
