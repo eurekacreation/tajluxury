@@ -185,8 +185,8 @@
                     <div class="container">
                         <div class="copyright">
                             <ul class="footer-social">
-                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="icon icon-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="icon icon-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="fa fa-facebook"></i></a></li>
 
                             </ul>
 
