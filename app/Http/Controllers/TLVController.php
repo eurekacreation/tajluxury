@@ -84,7 +84,7 @@ class TLVController extends Controller
             'contact_phone'     => 'required',
             'contact_email'     => 'required|email',
             'contact_subject'   => 'required|max:50',
-            'contact_message'   => 'required|min:20',
+            'contact_message'   => 'required',
         ), array(
             // this array is for overriding custom validation error messages
             'contact_name.required'     =>  'Your Name required',
@@ -94,7 +94,6 @@ class TLVController extends Controller
             'contact_subject.required'  =>  'Your Subject required',
             'contact_subject.max'       =>  'Must not be less than 50 characters',
             'contact_message.required'  =>  'Your message is required and must not be less than 20 characters',
-            'contact_message.min'       =>  'Must be superior than 20 characters',
         )
         );
         if($validation->fails()) {
@@ -188,7 +187,7 @@ class TLVController extends Controller
             'demandeRDV_email'         => 'required|email',
             'demandeRDV_meetingtime'   => 'required',
             'demandeRDV_meetingdate'   => 'date|after:tomorrow',
-            'demandeRDV_message'       => 'required|min:20',
+            'demandeRDV_message'       => 'required',
 
         ), array(
             // this array is for overriding custom validation error messages
@@ -198,7 +197,6 @@ class TLVController extends Controller
             'demandeRDV_meetingtime.required'   =>  'Meeting Time required',
             'demandeRDV_meetingdate.after'      =>  'Must be date after tomorrow',
             'demandeRDV_message.required'       =>  'Your message is required',
-            'demandeRDV_message.min'            =>  'Must be superior than 20 characters',
         )
         );
         if($validation->fails()) {

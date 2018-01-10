@@ -82,11 +82,8 @@
                         </div>
                         <div class="agent-social">
                             <ul>
-                                <li><a href="http://twitter.com/" style="pointer-events: none;cursor: default"><i class="icon icon-twitter"></i></a></li>
-                                <li><a href="http://facebook.com/" style="pointer-events: none;cursor: default"><i class="icon icon-facebook"></i></a></li>
-                                <li><a href="http://googleplus.com/" style="pointer-events: none;cursor: default"><i class="icon icon-googleplus"></i></a></li>
-                                <li><a href="http://skype.com/" style="pointer-events: none;cursor: default"><i class="icon icon-skype"></i></a></li>
-                                <li><a href="http://dribble.com/" style="pointer-events: none;cursor: default"><i class="icon icon-dribble"></i></a></li>
+                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="icon icon-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="icon icon-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>

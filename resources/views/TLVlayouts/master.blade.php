@@ -185,11 +185,9 @@
                     <div class="container">
                         <div class="copyright">
                             <ul class="footer-social">
-                                <li><a href="http://twitter.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-twitter"></i></a></li>
-                                <li><a href="http://facebook.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-facebook"></i></a></li>
-                                <li><a href="http://googleplus.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-googleplus"></i></a></li>
-                                <li><a href="http://skype.com/" style="display: none; pointer-events: none;cursor: default"><i class="icon icon-skype"></i></a></li>
-                                <li><a href="http://dribble.com/" style="display: none;pointer-events: none;cursor: default"><i class="icon icon-dribble"></i></a></li>
+                                <li><a href="https://www.instagram.com/tajluxuryvillas/"><i class="icon icon-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tajluxuryvillas/"><i class="icon icon-facebook"></i></a></li>
+
                             </ul>
 
                             <p>&copy; 2018 - TAJ Luxury Villas - {{_i('Tous droits réservés. Réalisé par ')}}<a href="http://www.eureka-creation.ma/">Eureka Creation</a> </p>
